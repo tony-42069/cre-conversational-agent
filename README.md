@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+@"
+# CRE Conversational Agent
+
+A Next.js-based web application that integrates with ElevenLabs' text-to-speech API to create an interactive conversational agent.
+
+## Features
+
+- Real-time text-to-speech conversion using ElevenLabs API
+- Modern chat interface with message history
+- Audio playback controls
+- Responsive design using Tailwind CSS
+- Built with Next.js and TypeScript
+
+## Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn
+- ElevenLabs API key
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+\`\`\`bash
+git clone https://github.com/tony-42069/cre-conversational-agent.git
+cd cre-conversational-agent
+\`\`\`
 
-```bash
+2. Install dependencies:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Create a \`.env\` file in the root directory and add your ElevenLabs API key:
+\`\`\`env
+ELEVENLABS_API_KEY=your_api_key_here
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+\`\`\`
+
+4. Run the development server:
+\`\`\`bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+\`\`\`
+src/
+├── app/
+│   ├── api/
+│   │   └── speech/
+│   │       └── route.ts
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── ChatInterface.tsx
+│   ├── MessageInput.tsx
+│   └── AudioPlayer.tsx
+└── lib/
+    ├── elevenlabs.ts
+    └── utils.ts
+\`\`\`
 
-## Learn More
+## Technology Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js 14
+- React 18
+- TypeScript
+- Tailwind CSS
+- ElevenLabs API
+- Radix UI Components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+MIT
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tony
+"@ | Out-File -FilePath README.md -Encoding utf8
