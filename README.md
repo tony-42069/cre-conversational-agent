@@ -11,6 +11,10 @@
 
 ![CRE Conversational Agent Preview](/public/preview.png)
 
+## 🔗 Demo
+
+Experience the live demo: [CRE Conversational Agent](https://elevenlabs.io/app/talk-to?agent_id=Q73XyDwUGaRKlIS11Kyn)
+
 ## ✨ Features
 
 🎤 **Advanced Voice Synthesis**
