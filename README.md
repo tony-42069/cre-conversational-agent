@@ -49,36 +49,36 @@ Before you begin, ensure you have:
 ### Installation
 
 1. **Clone the repository**
-   \\\ash
+   \ash
    git clone https://github.com/tony-42069/cre-conversational-agent.git
    cd cre-conversational-agent
-   \\\
+   \
 
 2. **Install dependencies**
-   \\\ash
+   \ash
    npm install
-   \\\
+   \
 
 3. **Set up environment variables**
-   \\\ash
+   \ash
    cp .env.example .env
-   \\\
-   Then edit \.env\ with your ElevenLabs API key:
-   \\\env
+   \
+   Then edit .env\ with your ElevenLabs API key:
+   \env
    ELEVENLABS_API_KEY=your_api_key_here
    NEXT_PUBLIC_APP_URL=http://localhost:3000
-   \\\
+   \
 
 4. **Start the development server**
-   \\\ash
+   \ash
    npm run dev
-   \\\
+   \
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser 🎉
 
 ## 📁 Project Structure
 
-\\\
+\
 src/
 ├── app/                  # Next.js App Router
 │   ├── api/             # API routes
@@ -92,7 +92,7 @@ src/
 └── lib/                 # Utilities
     ├── elevenlabs.ts    # ElevenLabs API integration
     └── utils.ts         # Helper functions
-\\\
+\
 
 ## 🛠️ Technology Stack
 
