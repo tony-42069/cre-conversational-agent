@@ -9,7 +9,7 @@
 
 > 🎯 A powerful, modern web application that transforms text into natural speech using ElevenLabs' cutting-edge AI technology. Built with Next.js and TypeScript for optimal performance and type safety.
 
-![Demo Screenshot Placeholder](https://via.placeholder.com/800x400?text=CRE+Conversational+Agent+Demo)
+![CRE Conversational Agent Preview](/public/preview.png)
 
 ## ✨ Features
 
