@@ -49,37 +49,26 @@ Before you begin, ensure you have:
 ### Installation
 
 1. **Clone the repository**
-   \ash
+   ```bash
    git clone https://github.com/tony-42069/cre-conversational-agent.git
    cd cre-conversational-agent
-   \
 
-2. **Install dependencies**
-   \ash
-   npm install
-   \
+Install dependencies
+bashCopynpm install
 
-3. **Set up environment variables**
-   \ash
-   cp .env.example .env
-   \
-   Then edit .env\ with your ElevenLabs API key:
-   \env
-   ELEVENLABS_API_KEY=your_api_key_here
-   NEXT_PUBLIC_APP_URL=http://localhost:3000
-   \
+Set up environment variables
+bashCopycp .env.example .env
+Then edit .env with your ElevenLabs API key:
+envCopyELEVENLABS_API_KEY=your_api_key_here
+NEXT_PUBLIC_APP_URL=http://localhost:3000
 
-4. **Start the development server**
-   \ash
-   npm run dev
-   \
+Start the development server
+bashCopynpm run dev
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser 🎉
+Open http://localhost:3000 in your browser 🎉
 
-## 📁 Project Structure
-
-\
-src/
+📁 Project Structure
+Copysrc/
 ├── app/                  # Next.js App Router
 │   ├── api/             # API routes
 │   │   └── speech/      # Text-to-speech endpoint
@@ -92,42 +81,34 @@ src/
 └── lib/                 # Utilities
     ├── elevenlabs.ts    # ElevenLabs API integration
     └── utils.ts         # Helper functions
-\
+🛠️ Technology Stack
 
-## 🛠️ Technology Stack
+Frontend Framework: Next.js 14
+UI Library: React 18
+Language: TypeScript
+Styling: Tailwind CSS
+Voice Synthesis: ElevenLabs API
+Components: Radix UI
+State Management: React Hooks
+HTTP Client: Native fetch API
 
-- **Frontend Framework**: Next.js 14
-- **UI Library**: React 18
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Voice Synthesis**: ElevenLabs API
-- **Components**: Radix UI
-- **State Management**: React Hooks
-- **HTTP Client**: Native fetch API
-
-## 🤝 Contributing
-
+🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+👨‍💻 Author
+Tony
 
-## 📝 License
+GitHub: @tony-42069
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+🙏 Acknowledgments
 
-## 👨‍💻 Author
+ElevenLabs for their amazing text-to-speech API
+Vercel for hosting and deployment
+Radix UI for accessible component primitives
 
-**Tony**
-- GitHub: [@tony-42069](https://github.com/tony-42069)
-
-## 🙏 Acknowledgments
-
-- [ElevenLabs](https://elevenlabs.io/) for their amazing text-to-speech API
-- [Vercel](https://vercel.com) for hosting and deployment
-- [Radix UI](https://www.radix-ui.com/) for accessible component primitives
-
----
 
 <div align="center">
-
 Built with Next.js and ElevenLabs
-
 </div>
+```
