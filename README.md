@@ -9,7 +9,7 @@
 
 > 🎯 A powerful, modern web application that transforms text into natural speech using ElevenLabs' cutting-edge AI technology. Built with Next.js and TypeScript for optimal performance and type safety.
 
-![CRE Conversational Agent Preview](/preview.png)
+![Demo Screenshot Placeholder](https://via.placeholder.com/800x400?text=CRE+Conversational+Agent+Demo)
 
 ## ✨ Features
 
@@ -52,23 +52,34 @@ Before you begin, ensure you have:
    ```bash
    git clone https://github.com/tony-42069/cre-conversational-agent.git
    cd cre-conversational-agent
+   ```
 
-Install dependencies
-bashCopynpm install
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-Set up environment variables
-bashCopycp .env.example .env
-Then edit .env with your ElevenLabs API key:
-envCopyELEVENLABS_API_KEY=your_api_key_here
-NEXT_PUBLIC_APP_URL=http://localhost:3000
+3. **Set up environment variables**
+   ```bash
+   cp .env.example .env
+   ```
+   Then edit `.env` with your ElevenLabs API key:
+   ```env
+   ELEVENLABS_API_KEY=your_api_key_here
+   NEXT_PUBLIC_APP_URL=http://localhost:3000
+   ```
 
-Start the development server
-bashCopynpm run dev
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
 
-Open http://localhost:3000 in your browser 🎉
+5. Open [http://localhost:3000](http://localhost:3000) in your browser 🎉
 
-📁 Project Structure
-Copysrc/
+## 📁 Project Structure
+
+```
+src/
 ├── app/                  # Next.js App Router
 │   ├── api/             # API routes
 │   │   └── speech/      # Text-to-speech endpoint
@@ -81,34 +92,42 @@ Copysrc/
 └── lib/                 # Utilities
     ├── elevenlabs.ts    # ElevenLabs API integration
     └── utils.ts         # Helper functions
-🛠️ Technology Stack
+```
 
-Frontend Framework: Next.js 14
-UI Library: React 18
-Language: TypeScript
-Styling: Tailwind CSS
-Voice Synthesis: ElevenLabs API
-Components: Radix UI
-State Management: React Hooks
-HTTP Client: Native fetch API
+## 🛠️ Technology Stack
 
-🤝 Contributing
+- **Frontend Framework**: Next.js 14
+- **UI Library**: React 18
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Voice Synthesis**: ElevenLabs API
+- **Components**: Radix UI
+- **State Management**: React Hooks
+- **HTTP Client**: Native fetch API
+
+## 🤝 Contributing
+
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-👨‍💻 Author
-Tony
 
-GitHub: @tony-42069
+## 📝 License
 
-🙏 Acknowledgments
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-ElevenLabs for their amazing text-to-speech API
-Vercel for hosting and deployment
-Radix UI for accessible component primitives
+## 👨‍💻 Author
 
+**Tony**
+- GitHub: [@tony-42069](https://github.com/tony-42069)
+
+## 🙏 Acknowledgments
+
+- [ElevenLabs](https://elevenlabs.io/) for their amazing text-to-speech API
+- [Vercel](https://vercel.com) for hosting and deployment
+- [Radix UI](https://www.radix-ui.com/) for accessible component primitives
+
+---
 
 <div align="center">
+
 Built with Next.js and ElevenLabs
+
 </div>
-```
