@@ -7,20 +7,21 @@
 [![ElevenLabs](https://img.shields.io/badge/ElevenLabs-API-green?style=for-the-badge)](https://elevenlabs.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-> 🎯 A powerful, modern web application that transforms text into natural speech using ElevenLabs' cutting-edge AI technology. Built with Next.js and TypeScript for optimal performance and type safety.
+> 🎯 A Next.js application featuring an AI voice agent named Jessica, specialized in commercial real estate knowledge. Using ElevenLabs' text-to-speech technology with a custom voice, Jessica can answer questions about commercial real estate, provide examples, and engage in natural conversations about property investments, market trends, and basic CRE concepts.
 
 ![CRE Conversational Agent Preview](/public/preview.png)
 
 ## 🔗 Demo
 
-Experience the live demo: [CRE Conversational Agent](https://elevenlabs.io/app/talk-to?agent_id=Q73XyDwUGaRKlIS11Kyn)
+Experience the live demo: [CRE Conversational Agent](https://cre-conversational-agent.vercel.app/)
 
 ## ✨ Features
 
-🎤 **Advanced Voice Synthesis**
-- Real-time text-to-speech conversion using ElevenLabs API
-- High-quality, natural-sounding voice output
-- Customizable voice parameters
+🎤 **AI Voice Assistant - Jessica**
+- Specialized commercial real estate knowledge base
+- Professional and consistent voice responses
+- Natural conversation flow about CRE topics
+- Predefined ElevenLabs voice model
 
 💬 **Interactive Chat Interface**
 - Clean, modern UI design
